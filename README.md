@@ -3,7 +3,3 @@ b
 a
 b
 t
-t
-t
-e
-a
