@@ -3,7 +3,6 @@ name: Demo vulnerable workflow
 on:
   issues:
     types: [opened]
-  pull_request:
 
 env:
   # Environment variable for demonstration purposes
