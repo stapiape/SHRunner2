@@ -10,7 +10,7 @@ env:
 
 jobs:
   vuln_job:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
      # Checkout used for demonstration purposes
