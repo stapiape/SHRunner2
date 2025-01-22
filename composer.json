@@ -1,5 +1,5 @@
 {
-    "name": "researchstation/SHRunner",
+    "name": "researchstation/shrunner",
     "description": "Example Project is a lightweight PHP class for detecting examples",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
