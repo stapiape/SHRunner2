@@ -1,27 +1,12 @@
 {
-    "name": "researchstation/shrunner",
-    "description": "Example Project is a lightweight PHP class for detecting examples",
-    "type": "drupal-module",
-    "license": "GPL-2.0-or-later",
-    "authors": [
-        {
-            "name": "Matthew Donadio (mpdonadio)",
-            "homepage": "https://www.drupal.org/u/mpdonadio",
-            "role": "Maintainer"
-        },
-        {
-            "name": "Darryl Norris (darol100)",
-            "email": "admin@darrylnorris.com",
-            "homepage": "https://www.drupal.org/u/darol100",
-            "role": "Co-maintainer"
-        }
-    ],
-    "homepage": "https://drupal.org/project/example_project",
-    "support": {
-        "issues": "https://drupal.org/project/issues/example_project",
-        "source": "https://git.drupalcode.org/project/example_project"
-    },
-    "require": {
-        "exampledetect/exampledetectlib": "^2.8"
+  "name": "myvendor/mypackage",
+  "description": "My awesome package",
+  "autoload": {
+    "psr-4": {
+      "MyVendor\\MyPackage\\": "src/"
     }
+  },
+  "require": {
+    "php": "^7.4"
+  }
 }
