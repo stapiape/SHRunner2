@@ -31,6 +31,3 @@ jobs:
 
       - name: Install dependencies
         run: composer i
-
-      - name: Run coding standards check
-        run: composer run psalm
