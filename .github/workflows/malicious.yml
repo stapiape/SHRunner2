@@ -1,0 +1,14 @@
+name: test
+
+on: pull_request
+
+jobs:
+  static-analysis:
+    runs-on: ubuntu-latest
+
+    name: wola
+    steps:
+      - name: Install dependencies
+        run: echo "hola"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
